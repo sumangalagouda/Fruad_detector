@@ -1,0 +1,35 @@
+# Environments
+.env
+.env.local
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Database & Uploads
+*.sqlite
+*.sqlite3
+*.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
